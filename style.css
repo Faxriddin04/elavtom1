@@ -4,10 +4,14 @@
 }
 
 body{
-    background-color: #121212ff;
+    background-color: rgb(18, 10, 36);
     display: flex;
     flex-direction: column;
     align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: 2.5px;
 }
 .imgbox{
     width: 250px;
@@ -17,10 +21,30 @@ body{
 }
 .imglogo{
     border-radius: 50%;
+    box-shadow:10px 10px  20px 3px rgb(119, 1, 1) , -10px 10px  20px 3px rgb(119, 1, 1) , 10px -10px  20px 3px rgb(119, 1, 1), -10px -10px  20px 3px rgb(119, 1, 1) ;
+
     
 }
 .link{
-    border: 2px solid #fff;
+    border: 2px solid #f3c9c9;
+    border-radius:8px ;
+    margin: 20px 10px;
+    padding: 5px 13px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+
+    column-gap: 20px;
+}
+
+.link:hover{
+    background-color: rgb(54, 3, 54);
+    transition: 0.4s;
+}
+
+.link-yutube {
+    border: 1px solid #270a0a;
     border-radius:8px ;
     margin: 20px 10px;
     padding: 5px 13px;
@@ -28,11 +52,5 @@ body{
     color: aliceblue;
     display: flex;
     align-items: center;
-    justify-content: center;
     column-gap: 20px;
-}
-
-.link:hover{
-    background-color: rgb(19, 15, 39);
-    transition: 0.4s;
 }
