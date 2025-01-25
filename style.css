@@ -25,6 +25,9 @@ body{
 
     
 }
+.menu{
+    margin-top: 20px;
+}
 .link{
     border: 2px solid #f3c9c9;
     border-radius:8px ;
@@ -53,4 +56,15 @@ body{
     display: flex;
     align-items: center;
     column-gap: 20px;
+}
+
+
+
+.text-box p{
+    color: azure;
+    margin-top: 20px;
+    width: 500px;
+    font-weight: 400;
+    font-stretch: extra-condensed;
+    text-align: center;
 }
