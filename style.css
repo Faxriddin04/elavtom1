@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body{
@@ -63,8 +64,8 @@ body{
 .text-box p{
     color: azure;
     margin-top: 20px;
-    padding-left: 30px;
-    padding-right: 30px;
+    margin-left: 30px;
+    margin: 30px;
     width: 500px;
     font-weight: 400;
     font-stretch: extra-condensed;
